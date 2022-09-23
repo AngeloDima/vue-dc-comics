@@ -1,10 +1,12 @@
 <template>
-
+    <div>
+        <h1>sono</h1>
+    </div>
 </template>
 
 <script>
 export default{
-    Name: `header`,
+    Name: `main_one`,
 }
 </script>
 
