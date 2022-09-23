@@ -2,7 +2,7 @@
     <div>
         <header>
             <div class="logo">
-                <img src="src/assets/img/dc-logo.png" alt="">
+                <img src="../assets/img/dc-logo.png" alt="">
             </div>
         </header>
     </div>
@@ -18,7 +18,7 @@ export default{
     header{
         width: 100%;
         height: 20vh;
-        background-color: red;
+        background-color: rgba(0, 195, 255, 0.432);
         img{
             width: 150px;
             height: 150px;
