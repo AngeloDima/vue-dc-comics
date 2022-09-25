@@ -8,11 +8,11 @@
              <!-- ------------Divisone---------- -->
         <section id="SecTwo">
             <div class="Second-section">
-                <div class="imgContainer"><img src="../assets/img/buy-comics-digital-comics.png" alt=""></div>
-                <div class="imgContainer"><img src="../assets/img/buy-comics-merchandise.png" alt=""></div>
-                <div class="imgContainer"><img src="../assets/img/buy-comics-subscriptions.png" alt=""></div>
-                <div class="imgContainer"><img src="../assets/img/buy-comics-shop-locator.png" alt=""></div>
-                <div class="imgContainer"><img src="../assets/img/buy-dc-power-visa.svg" alt=""></div>
+                <div class="imgContainer"><img src="../assets/img/buy-comics-digital-comics.png" alt=""><h5>DIGITAL COMICS</h5></div>
+                <div class="imgContainer"><img src="../assets/img/buy-comics-merchandise.png" alt=""><h5>DC MERCHANDISE</h5></div>
+                <div class="imgContainer"><img src="../assets/img/buy-comics-subscriptions.png" alt=""><h5>SUBSCRIPTION</h5></div>
+                <div class="imgContainer"><img src="../assets/img/buy-comics-shop-locator.png" alt=""><h5>COMIC SHOP LOCATOR</h5></div>
+                <div class="imgContainer"><img src="../assets/img/buy-dc-power-visa.svg" alt=""><h5>DC POWER VISA</h5></div>
             </div>
         </section>
     </div>
@@ -49,18 +49,27 @@ export default{
     // -------------------Divisione-----------
 
     .Second-section{
-        
+
         width: 80%;
         height: 20vh;
         display: flex;
         justify-content: space-between;
         margin: auto;
         
-        
-
+        .imgContainer{
+            display: flex;
+            align-items: center;
+            h5{
+                margin-left: 20px;
+                font-size: 0.8rem;
+                color: white;
+                font-weight: 600;
+            }
+        }
         .imgContainer img{
             max-height: 70px;
             width: 70px;
+            ;
             
         }
     }
