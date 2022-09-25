@@ -3,6 +3,7 @@
    <header_one />
    <main_one />
    <footer_one />
+   <footer_profondo />
   </div>
 </template>
 
@@ -10,6 +11,7 @@
 import header_one from '/src/assets/header_one.vue';
 import main_one from '/src/assets/main_one.vue';
 import footer_one from '/src/assets/footer_one.vue';
+import footer_profondo from '/src/assets/footer_profondo.vue';
 
 export default {
   name: 'App',
@@ -17,6 +19,7 @@ export default {
     header_one,
     main_one,
     footer_one,
+    footer_profondo,
 },
 }
 </script>
