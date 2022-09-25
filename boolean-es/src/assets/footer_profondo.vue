@@ -21,6 +21,12 @@
 </script>
 
 <style lang="scss" scoped>
+  *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
     #SecOne{
         background-color: hsl(0deg 0% 19%);
         width: 100%;

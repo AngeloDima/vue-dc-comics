@@ -27,6 +27,12 @@ export default{
 </script>
 
 <style lang="scss" scoped>
+      *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
     header{
         width: 70%;
         height: 15vh;
