@@ -26,16 +26,16 @@ export default{
 
 <style lang="scss" scoped>
     #SecOne{
-        background-color: rgb(0, 0, 146);
+        background-color: hsl(0deg 0% 11%);
     }
     #SecTwo{
-        background-color: rgb(0, 195, 255);
+        background-color: hsl(209deg 98% 49%);
     }
 
     .Prime-section{
         
         width: 80%;
-        height: 20vh;
+        height: 10vh;
         display: flex;
         align-items: center;
         margin: auto;
@@ -51,7 +51,7 @@ export default{
     .Second-section{
 
         width: 80%;
-        height: 20vh;
+        height: 10vh;
         display: flex;
         justify-content: space-between;
         margin: auto;
@@ -61,14 +61,14 @@ export default{
             align-items: center;
             h5{
                 margin-left: 20px;
-                font-size: 0.8rem;
+                font-size: 0.7rem;
                 color: white;
                 font-weight: 600;
             }
         }
         .imgContainer img{
-            max-height: 70px;
-            width: 70px;
+            max-height: 50px;
+            width: 50px;
             ;
             
         }
