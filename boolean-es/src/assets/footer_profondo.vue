@@ -2,6 +2,14 @@
     <section id="SecOne">
         <div class="container">
             <input type="submit" value="SIGN-UP NOW!">
+            <div class="container-mini">
+                <span id="Follow">FOLLOW US</span>
+                <img src="../assets/img/footer-facebook.png" alt="">
+                <img src="../assets/img/footer-twitter.png" alt="">
+                <img src="../assets/img/footer-youtube.png" alt="">
+                <img src="../assets/img/footer-pinterest.png" alt="">
+                <img src="../assets/img/footer-periscope.png" alt="">
+            </div>
         </div>
     </section>
 </template>
@@ -23,6 +31,7 @@
         
         margin: auto;
         display: flex;
+        justify-content: space-between;
     
         input{
             padding: 17px;
@@ -31,5 +40,20 @@
             color: white;
             margin-top: 35px;
         }
+        .container-mini{
+            #Follow{
+                color: hsl(209deg 98% 49%);
+                font-size: 1.2rem;
+                
+                position: relative;
+                bottom: 10px;
+                right: 15px;
+            }
+            img{
+                margin: 0px 10px;
+                margin-top: 35px;
+            }
+        }
+
     }
 </style>
