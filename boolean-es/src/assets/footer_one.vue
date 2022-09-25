@@ -22,10 +22,13 @@ export default{
         height: 50vh;
         display: flex;
         justify-content: end;
+        position: relative;
 
          .logoDcTrasparente img{   
-             width: 100%;
+             width: 25%;
              height: 100%;
+             position: absolute;
+             right: 10%;
          }
     }
 </style>

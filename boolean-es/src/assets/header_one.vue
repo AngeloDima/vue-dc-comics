@@ -28,7 +28,7 @@ export default{
 
 <style lang="scss" scoped>
     header{
-        width: 80%;
+        width: 70%;
         height: 15vh;
         // background-color: rgba(0, 195, 255, 0.432);
         margin: auto;

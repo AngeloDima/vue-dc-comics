@@ -34,7 +34,7 @@ export default{
 
     .Prime-section{
         
-        width: 80%;
+        width: 70%;
         height: 10vh;
         display: flex;
         align-items: center;
@@ -50,7 +50,7 @@ export default{
 
     .Second-section{
 
-        width: 80%;
+        width: 70%;
         height: 10vh;
         display: flex;
         justify-content: space-between;
