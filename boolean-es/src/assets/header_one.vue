@@ -4,6 +4,18 @@
             <div class="logo">
                 <img src="../assets/img/dc-logo.png" alt="">
             </div>
+            <ul>
+                <li><a href="">CHARACTERS</a></li>
+                <li><a href="">COMICS</a></li>
+                <li><a href="">MOVIES</a></li>
+                <li><a href="">TV</a></li>
+                <li><a href="">GAMES</a></li>
+                <li><a href="">COLLECTIBLES</a></li>
+                <li><a href="">VIDEOS</a></li>
+                <li><a href="">FANS</a></li>
+                <li><a href="">NEWS</a></li>
+                <li><a href="">SHOP</a></li>
+            </ul>
         </header>
     </div>
 </template>
@@ -16,12 +28,25 @@ export default{
 
 <style lang="scss" scoped>
     header{
-        width: 100%;
-        height: 20vh;
+        width: 80%;
+        height: 15vh;
         background-color: rgba(0, 195, 255, 0.432);
+        margin: auto;
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
         img{
-            width: 150px;
-            height: 150px;
+            width: 100px;
+        }
+        ul{
+            display: flex;
+            gap: 40px;
+            text-decoration: none;
+
+            li{
+                text-decoration: none;
+            }
         }
     }
 </style>
