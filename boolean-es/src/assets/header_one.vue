@@ -36,16 +36,23 @@ export default{
         display: flex;
         align-items: center;
         justify-content: space-between;
+        
         img{
             width: 100px;
         }
+
         ul{
             display: flex;
             gap: 40px;
             text-decoration: none;
+            font-size: 0.8rem;
 
             li{
+
                 text-decoration: none;
+                a{
+                    text-decoration: none;
+                }
             }
         }
     }
