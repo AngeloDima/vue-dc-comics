@@ -1,18 +1,18 @@
 <template>
     <div>
-        <section>
+        <section id="SecOne">
             <div class="Prime-section">
                 <h1>Contenuto</h1>
             </div>
         </section>
              <!-- ------------Divisone---------- -->
-        <section>
+        <section id="SecTwo">
             <div class="Second-section">
-                <div class="imgContainer"><img src="../assets/img/buy-comics-digital-comics.png" alt="">asd</div>
                 <div class="imgContainer"><img src="../assets/img/buy-comics-digital-comics.png" alt=""></div>
-                <div class="imgContainer"><img src="../assets/img/buy-comics-digital-comics.png" alt=""></div>
-                <div class="imgContainer"><img src="../assets/img/buy-comics-digital-comics.png" alt=""></div>
-                <div class="imgContainer"><img src="../assets/img/buy-comics-digital-comics.png" alt=""></div>
+                <div class="imgContainer"><img src="../assets/img/buy-comics-merchandise.png" alt=""></div>
+                <div class="imgContainer"><img src="../assets/img/buy-comics-subscriptions.png" alt=""></div>
+                <div class="imgContainer"><img src="../assets/img/buy-comics-shop-locator.png" alt=""></div>
+                <div class="imgContainer"><img src="../assets/img/buy-dc-power-visa.svg" alt=""></div>
             </div>
         </section>
     </div>
@@ -25,12 +25,20 @@ export default{
 </script>
 
 <style lang="scss" scoped>
-    .Prime-section{
+    #SecOne{
         background-color: rgb(0, 0, 146);
-        width: 100%;
+    }
+    #SecTwo{
+        background-color: rgb(0, 195, 255);
+    }
+
+    .Prime-section{
+        
+        width: 80%;
         height: 20vh;
         display: flex;
         align-items: center;
+        margin: auto;
         
         h1{
             color: white;
@@ -41,17 +49,18 @@ export default{
     // -------------------Divisione-----------
 
     .Second-section{
-        background-color: rgb(0, 174, 255);
-        width: 100%;
+        
+        width: 80%;
         height: 20vh;
         display: flex;
         justify-content: space-between;
+        margin: auto;
         
         
 
         .imgContainer img{
             max-height: 70px;
-            max-width:  70px;
+            width: 70px;
             
         }
     }

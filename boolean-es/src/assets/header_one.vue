@@ -30,7 +30,7 @@ export default{
     header{
         width: 80%;
         height: 15vh;
-        background-color: rgba(0, 195, 255, 0.432);
+        // background-color: rgba(0, 195, 255, 0.432);
         margin: auto;
 
         display: flex;
